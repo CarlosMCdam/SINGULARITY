@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>SINGULARITY - Account</title>
+        <link rel="stylesheet" href="style_account.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="
+        https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap
+        " rel="stylesheet">
+    </head>
+    <body>
+        <div id="container">
+            <div id="container1">
+                <h1 class="font1600">- ACCOUNT -</h1>
+            </div>
+            <div id="container2">
+                <img src="../images/profile.png">
+                <form action="http://jkorpela.fi/cgi-bin/echo.cgi" class="font1400">
+                    <label for="user">Username:</label><br>
+                    <input type="text" id="user" name="Username"><br><br>
+                    <label for="email">Email address:</label><br>
+                    <input type="email" id="email" name="Email_address"><br><br>
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="Password"><br><br>
+                    <p>Galaxy arm of residence:</p>
+                    <input type="radio" id="sagittarius" name="Galaxy_arm" value="Sagittarius">
+                    <label for="sagittarius" class="labelradio">Sagittarius Arm</label>
+                    <input type="radio" id="orion" name="Galaxy_arm" value="Orion">
+                    <label for="orion" class="labelradio">Orion Arm</label>
+                    <input type="radio" id="perseus" name="Galaxy_arm" value="Perseus">
+                    <label for="perseus" class="labelradio">Perseus Arm</label>
+                    <input type="radio" id="outer" name="Galaxy_arm" value="Outer">
+                    <label for="outer" class="labelradio">Outer Arm</label><br><br>
+                    <label for="receive">Receive emails and news</label>
+                    <input type="checkbox" id="receive" name="Receive_news"><br><br>
+                    <input type="submit" value="- SUBMIT -" class="font1600">
+                    <input type="reset" value="- RESET -" class="font1600"><br><br><br>
+                    <h3>...Or sing up via GDI (Galactic Document of Identity)</h3><br>
+                    <label for="GDI">GDI:</label>
+                    <input type="text" id="gdi" name="GDI" maxlength="11" placeholder="0000-0000-A" pattern="[0-9]{4}-[0-9]{4}-[A-Z]{1}"> <!--extra element-->
+                    <a href="../MAIN/main.html" class="font1600">- Back to Main -</a>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

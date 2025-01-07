@@ -1,0 +1,304 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 85em;
+    margin: 0em;
+    padding: 0em;
+    overflow-x: hidden; /*extra element*/
+    background: radial-gradient(rgb(62, 62, 84),rgb(0, 0, 0));
+}
+.font1400 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;   
+    font-style: normal;
+}
+.font1600 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;   
+    font-style: normal;
+}
+.font2400 {
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.font2600 {
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.font3 {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(175, 175, 236);
+    font-size: 1.75em;
+}  
+#title{
+    width: 60%;
+    letter-spacing: 0.5em; /*extra element*/
+    padding: 0.25em;
+    margin: 0em 20%;
+    font-size: 3.5em;
+    color: white;
+    text-decoration: underline rgba(0, 0, 0, 0.05) solid 0.01em; /*extra element*/
+    border-radius: 0em 0em 0.33em 0.33em;
+    text-align: center;
+    white-space: nowrap;
+    text-shadow: 0em 0.0375em 0.5em rgb(90, 90, 121); /*extra element*/
+    z-index: 0;
+    animation: 
+        bgcolor1 7.5s ease-in-out infinite alternate none;
+}
+#since{
+    width: 100%;
+    height: auto;
+    margin: 3% 0%;
+    text-align: center;
+    white-space: nowrap; /*extra element*/
+    animation: 
+        spacing1 7.5s linear -7.5s infinite alternate none,
+        color1 7.5s ease-in-out -7.5s infinite alternate none;
+}
+#container{
+    width: 70%;
+    height: auto;
+    border-radius: 1em;
+    background-color: rgba(0, 0, 0, 0.25);
+    margin: 0% 15%;
+    padding: 0% 0% 2.5% 0%;
+}
+#container1{
+    width: 100%;
+    height: 5.5em;
+    margin: 0%;
+    overflow: hidden; /*extra element*/
+    display: flex;
+    text-align: center;
+    align-items: center;    
+    color: white;
+}
+#container1 a{
+    width: 33.33%;
+    text-decoration: none;
+}
+a h2{
+    width:  100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0.5em;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
+    white-space: nowrap; /*extra element*/
+    letter-spacing: 0.1em; /*extra element*/
+}
+#trips{
+    border-top: 0.25em solid rgba(0, 0, 0, 1);
+    border-bottom: 0.25em solid rgba(0, 0, 0, 1);
+    border-left: 0.25em solid rgba(0, 0, 0, 1); 
+    border-radius: 0.5em 0em 0em 0em;
+}
+#account{
+    border: 0.25em solid rgba(0, 0, 0, 1);
+}
+#about{
+    border-top: 0.25em solid rgba(0, 0, 0, 1);
+    border-bottom: 0.25em solid rgba(0, 0, 0, 1);
+    border-right: 0.25em solid rgba(0, 0, 0, 1);
+    border-radius: 0em 0.5em 0em 0em;
+}
+#container1 h2:hover{
+    background-color: rgb(0, 0, 0, 0);
+    text-decoration: underline rgb(255, 255, 255, 0.75) 0.075em; /*extra element*/
+}
+#container1 h2:active{
+    background-color: rgb(0, 0, 0, 0.5);
+    text-decoration: underline rgba(0, 0, 0, 0) 0.075em; /*extra element*/
+}
+.container2{
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    padding: 2.5%;
+    white-space: nowrap ; /*extra element*/
+}
+.container2 .type{
+    height: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+    color: white;
+}
+.container2 a{
+    height: 100%;
+    width: auto;
+    text-decoration: none; /*extra element*/
+    animation:
+        color1 7.5s ease-in-out -7.5s infinite alternate none;
+}
+.container2 .book{
+    height: 100%;
+    width: 20%;
+    padding: 0%;
+    white-space: nowrap; /*extra element*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(62, 62, 84);
+    border: 0.25em solid rgb(49, 49, 66);
+    border-radius: 1em;
+    animation: 
+        bgcolor2 7.5s ease-in-out infinite alternate none,
+        bordercolor1 7.5s ease-in-out infinite alternate none;
+}
+.book:hover{
+    color: white;
+    animation:
+        scale2 0.125s linear 1 normal forwards;
+}
+.container3{
+    width: 100%;
+    height: auto;
+    padding: 0% 2.5%;
+}
+.container3 p{
+    height: auto;
+    width: 100%;
+    padding: 0.5em 1em;
+    font-size: 1.25em;
+    color: rgb(171, 171, 171);
+    background-color: rgba(0, 0, 0, 0.8);
+    border: black solid 0.33em;
+    border-radius: 0.75em;
+    display: flex;
+    align-items: center;
+    white-space: nowrap; /*extra element*/
+    overflow: hidden; /*extra element*/
+}
+p a{
+    width: 15%;
+    height: 5em;
+}
+p img{
+    height: 5em;
+    width: 100%;
+    border-radius: 1em;
+}
+p img:hover{
+    animation:
+        scale2 0.125s linear 1 normal forwards;
+}
+#enceladus{
+    margin: 0% 0% 0% 75%;
+}
+#crabnebula{
+    margin: 0% 0% 0% 73%;
+}
+#kepler90{
+    margin: 0% 0% 0% 68%;
+}
+#sagittariusa{
+    margin: 0% 0% 0% 73%;
+}
+#earth{
+    margin: 0% 0% 0% 80%;
+}
+#container4 #classics{
+    height: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+    color: white;
+}
+footer {
+    width: 100%;
+    height: 110%;
+    background: rgb(0, 0, 0);
+    margin: 5em 0em;
+    padding: 2em 5em;
+}
+footer *{
+    display: inline;
+}
+footer h3{
+    float: right;
+}
+.frame div{
+    width: 100%;
+    height: 200%;
+    border-radius: 100%;
+    background: rgb(0, 0, 0, 0);
+    position: absolute;
+    animation:
+        scale1 4s linear infinite alternate none,
+        rotate360 4s linear infinite normal none,
+        bgcolor1 7.5s ease-in-out infinite alternate none,
+        vortexheight 15s ease-in-out infinite alternate forwards,
+        vortexside 15s ease-in-out infinite alternate forwards;
+}
+#frame1{
+    animation-delay: 0s;
+    z-index: -1; /*extra element*/
+}
+#frame2{
+    animation-delay: 0.12s;
+    z-index: -2; /*extra element*/
+}
+#frame3{
+    animation-delay: 0.24s;
+    z-index: -3; /*extra element*/
+}
+#frame4{
+    animation-delay: 0.4s;
+    z-index: -4; /*extra element*/
+}
+#frame5{
+    animation-delay: 0.58s;
+    z-index: -5; /*extra element*/
+}
+@keyframes vortexheight {
+    0%{top: -75%}
+    100%{top: 0%}
+}
+@keyframes vortexside {
+    0%{left: -75%}
+    100%{left: 75%}
+}
+@keyframes scale1 {
+    from{transform: scaleX(2);} /*extra element*/
+    to{transform: scaleY(2);} /*extra element*/
+}
+@keyframes scale2 {
+    from{transform: scale(1);} /*extra element*/
+    to{transform: scale(1.025);} /*extra element*/
+}
+@keyframes rotate360 {
+    from{transform: rotateZ(0deg);} /*extra element*/
+    to{transform: rotateZ(360deg);} /*extra element*/
+}
+@keyframes bgcolor1 {
+    from{background-color: rgba(0, 0, 10, 0.2);}
+    to{background-color: rgb(0, 0, 0, 0.4);}
+}
+@keyframes bgcolor2 {
+    from{background-color: rgb(62, 62, 84, 1);}
+    to{background-color: rgb(0, 0, 0, 1);}
+}
+@keyframes bordercolor1 {
+    from{border-color: rgb(49, 49, 66, 1);}
+    to{border-color: rgb(0, 0, 0, 1);}
+}
+@keyframes color1 {
+    from{color: rgba(255, 255, 255, 1);}
+    to{color: rgb(175, 175, 236);}
+}
+@keyframes spacing1 {
+    from{letter-spacing: 0em;} /*extra element*/
+    to{letter-spacing: 0.015em;} /*extra element*/
+}
